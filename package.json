@@ -1,0 +1,27 @@
+{
+	"name": "boilderplate-node",
+	"version": "1.0.0",
+	"description": "Boilerplate Node",
+	"main": "index.js",
+	"homepage": "https://github.com/miladvafaeifard/boilderplate-node#readme",
+	"bugs": {
+		"url": "https://github.com/miladvafaeifard/boilderplate-node/issues"
+	},
+	"repository": {
+		"type": "git",
+		"url": "git+https://github.com/miladvafaeifard/boilderplate-node.git"
+	},
+	"scripts": {
+		"start": "nodemon ./index.js --exec babel-node"
+	},
+	"keywords": [],
+	"author": "",
+	"license": "ISC",
+	"devDependencies": {
+		"@babel/cli": "^7.2.0",
+		"@babel/core": "^7.2.2",
+		"@babel/node": "^7.2.2",
+		"@babel/preset-env": "^7.2.0",
+		"nodemon": "^1.18.9"
+	}
+}
